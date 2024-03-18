@@ -12,11 +12,33 @@ body {
     background-color: #0c0c1d;
     color: lightgray;
 }
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 section {
     height: 100vh;
     scroll-snap-align: center;
+}
+
+.bb {
+    border: 1px solid black;
+}
+
+.br {
+    border: 1px solid red;
+}
+
+.bw {
+    border: 1px solid white;
+}
+
+.btn{
+    font-size: 1.6rem;
+    color: gainsboro;
+    border: 1px solid white;
+    background-color: #44445c;
+    border-radius: 6px;
+    padding: 8px 16px;
+    cursor: pointer;
 }
